@@ -11,7 +11,6 @@ jobs:
     if: contains(github.event.pull_request.labels.*.name, 'stage')
 
     steps:
-    
       - uses: actions/checkout@v3
       
       - name: Run a one-line script

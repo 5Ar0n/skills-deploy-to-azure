@@ -9,6 +9,7 @@ env:
   IMAGE_REGISTRY_URL: ghcr.io
   DOCKER_IMAGE_NAME: 5Ar0n-azure-ttt
   AZURE_WEBAPP_NAME: 5Ar0n-ttt-app
+  
 jobs:
   build:
     runs-on: ubuntu-latest
